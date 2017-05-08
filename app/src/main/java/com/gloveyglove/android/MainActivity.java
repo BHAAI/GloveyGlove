@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Click(R.id.b_eye)
     protected void buttonEyeClicked() {
-        Intent intent = new Intent(MainActivity.this, FirstPage.class);
+        Intent intent = new Intent(MainActivity.this, FirstPage_.class);
         intent.putExtra("what_clicked", "eye");
         intent.putExtra(FirstPage.EXTRA_ADDRESS, bluetoothClientAddress);
         startActivity(intent);
@@ -37,41 +37,41 @@ public class MainActivity extends AppCompatActivity {
 
     @Click(R.id.b_heart)
     protected void buttonHeartClicked() {
-        Intent intent = new Intent(MainActivity.this, FirstPage.class);
+        Intent intent = new Intent(MainActivity.this, FirstPage_.class);
         intent.putExtra("what_clicked", "heart");
-        intent.putExtra(FirstPage.EXTRA_ADDRESS, bluetoothClientAddress);
+        intent.putExtra(FirstPage_.EXTRA_ADDRESS, bluetoothClientAddress);
         startActivity(intent);
     }
 
     @Click(R.id.b_kidney)
     protected void buttonKidneyClicked() {
-        Intent intent = new Intent(MainActivity.this, FirstPage.class);
+        Intent intent = new Intent(MainActivity.this, FirstPage_.class);
         intent.putExtra("what_clicked", "kidney");
-        intent.putExtra(FirstPage.EXTRA_ADDRESS, bluetoothClientAddress);
+        intent.putExtra(FirstPage_.EXTRA_ADDRESS, bluetoothClientAddress);
         startActivity(intent);
     }
 
     @Click(R.id.b_sinus)
     protected void buttonSinusClicked() {
-        Intent intent = new Intent(MainActivity.this, FirstPage.class);
+        Intent intent = new Intent(MainActivity.this, FirstPage_.class);
         intent.putExtra("what_clicked", "sinus");
-        intent.putExtra(FirstPage.EXTRA_ADDRESS, bluetoothClientAddress);
+        intent.putExtra(FirstPage_.EXTRA_ADDRESS, bluetoothClientAddress);
         startActivity(intent);
     }
 
     @Click(R.id.b_stomach)
     protected void buttonStomachClicked() {
-        Intent intent = new Intent(MainActivity.this, FirstPage.class);
+        Intent intent = new Intent(MainActivity.this, FirstPage_.class);
         intent.putExtra("what_clicked", "stomach");
-        intent.putExtra(FirstPage.EXTRA_ADDRESS, bluetoothClientAddress);
+        intent.putExtra(FirstPage_.EXTRA_ADDRESS, bluetoothClientAddress);
         startActivity(intent);
     }
 
     @Click(R.id.b_stop)
     protected void buttonStopClicked() {
-        Intent intent = new Intent(MainActivity.this, FirstPage.class);
+        Intent intent = new Intent(MainActivity.this, FirstPage_.class);
         intent.putExtra("what_clicked", "stop");
-        intent.putExtra(FirstPage.EXTRA_ADDRESS, bluetoothClientAddress);
+        intent.putExtra(FirstPage_.EXTRA_ADDRESS, bluetoothClientAddress);
         startActivity(intent);
     }
 }
